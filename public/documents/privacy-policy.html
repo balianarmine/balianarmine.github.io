@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>linka — Application Privacy Policy</title><style>:root{font-family:Arial,sans-serif;color:#222b25;background:#fafbf7;color-scheme:light}*{box-sizing:border-box}body{margin:0}header,main,footer{width:min(840px,calc(100% - 40px));margin:auto}header{padding:28px 0;border-bottom:1px solid #dfe3d9;display:flex;justify-content:space-between;align-items:center;gap:20px}a{color:#244a35;text-underline-offset:4px}a:focus-visible{outline:2px solid #244a35;outline-offset:5px}.brand{font-size:30px;font-weight:700;letter-spacing:-1.5px;text-decoration:none}header>a:last-child{font-size:13px}main{padding:48px 0 64px}h1{font-size:clamp(28px,5vw,42px);line-height:1.15;letter-spacing:-1.5px;font-weight:500;margin:0 0 28px}h2{font-size:21px;line-height:1.4;margin:38px 0 14px;font-weight:600}p,li{font-size:15px;line-height:1.85;overflow-wrap:anywhere}p{margin:12px 0}li{padding-left:5px;margin:7px 0}ul{padding-left:22px}hr{border:0;border-top:1px solid #dfe3d9;margin:30px 0}.table-scroll{overflow-x:auto;margin:22px 0;border:1px solid #dfe3d9;border-radius:8px}table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.7;min-width:560px}th,td{text-align:left;vertical-align:top;padding:14px 16px;border-bottom:1px solid #dfe3d9}th{background:#eef1e7;font-weight:600}tbody tr:last-child td{border-bottom:0}footer{border-top:1px solid #dfe3d9;padding:24px 0 36px;display:flex;flex-wrap:wrap;gap:16px 28px;font-size:13px}@media(max-width:600px){main{padding-top:32px}p,li{font-size:14px}h2{font-size:19px}}</style></head><body><header><a class="brand" href="../index.html">linka</a><a href="../index.html" lang="en">Back to home</a></header><main><h1>linka — Application Privacy Policy</h1><p>Last updated: October 21, 2026</p>
+<p>App name: linka</p>
+<p>Homepage: https://balianarmine.github.io</p>
+<p>Contact: balian.armine@gmail.com</p>
+<hr>
+<h2>1. What We Collect</h2>
+<p>linka is an AI-powered productivity platform that helps users automate tasks across their Google Workspace using natural language commands. Through the Google OAuth 2.0 API, we access the following data on behalf of our users:</p>
+<div class="table-scroll" role="region" aria-label="Service, Data Accessed, Purpose" tabindex="0"><table><thead><tr><th scope="col">Service</th><th scope="col">Data Accessed</th><th scope="col">Purpose</th></tr></thead><tbody><tr><td>Gmail API</td><td>Email messages (read, send, label, search)</td><td>Reading, summarizing, drafting, and sending emails</td></tr><tr><td>Google Drive API</td><td>Files and folders (search, read metadata)</td><td>Searching and organizing user files</td></tr><tr><td>Google Calendar API</td><td>Calendar events (read, create, update)</td><td>Viewing and managing schedule</td></tr></tbody></table></div>
+<p>We do NOT collect: contacts, photos, location data, health data, or any data outside the scopes listed above.</p>
+<h2>2. How We Use the Data</h2>
+<p>User data is used exclusively to provide the AI assistant functionality described on our homepage:</p>
+<ul><li>Reading and summarizing email threads</li><li>Drafting and sending emails on the user's behalf (with user approval)</li><li>Searching and organizing files in Google Drive</li><li>Viewing, creating, and updating calendar events</li></ul>
+<p>Data is processed in real-time to respond to the user's query. We do not store user content beyond the active session.</p>
+<h2>3. Limited Use</h2>
+<p>In accordance with the Google API Services User Data Policy, we commit to the following:</p>
+<ul><li>We will NOT sell or transfer user data to third parties.</li><li>We will NOT use user data for advertising purposes.</li><li>We will NOT use user data to train machine learning models beyond the specific user's personalized experience.</li><li>We will NOT use user data for credit decisions.</li><li>We will NOT aggregate user data across users for any purpose.</li><li>We will NOT use user data in a manner inconsistent with our published privacy policy.</li></ul>
+<p>Access to user data is limited to what is necessary to provide the features visible in our application. We comply with the minimum scope requirement: we request only the smallest set of Google API scopes necessary for the described functionality.</p>
+<h2>4. Data Storage and Retention</h2>
+<div class="table-scroll" role="region" aria-label="Data Type, Storage, Retention" tabindex="0"><table><thead><tr><th scope="col">Data Type</th><th scope="col">Storage</th><th scope="col">Retention</th></tr></thead><tbody><tr><td>OAuth tokens (access, refresh)</td><td>Encrypted vault (AES-256-GCM)</td><td>Until revoked by user</td></tr><tr><td>User content (email bodies, file contents)</td><td>In-memory during active session only</td><td>NOT persisted to disk</td></tr><tr><td>Session logs (tool call metadata, timestamps)</td><td>Encrypted storage</td><td>90 days</td></tr><tr><td>Audit trail (who called what, when)</td><td>Append-only log</td><td>1 year</td></tr></tbody></table></div>
+<p>Upon user request or account deletion, all associated data is permanently deleted within 30 days.</p>
+<h2>5. Data Sharing</h2>
+<p>We do not share user data with third parties except:</p>
+<ul><li>Google APIs — to retrieve and send the data the user has explicitly authorized.</li><li>LLM Provider (OpenAI / Anthropic) — solely to process the user's query in real-time. The provider's data-use terms prohibit training on API traffic. No user data is retained by the LLM provider beyond the active inference call.</li></ul>
+<p>We do NOT share data with advertisers, data brokers, analytics platforms, or any other third party.</p>
+<h2>6. Security Measures</h2>
+<ul><li>All data in transit is encrypted via TLS 1.3.</li><li>Tokens at rest are encrypted with AES-256-GCM.</li><li>Access to user data is restricted to the authenticated user only (per-user permissions enforced on every API call).</li><li>We maintain an append-only audit log of all API calls for security monitoring.</li><li>We protect against prompt injection by filtering and sanitizing untrusted input before it reaches the model, and by restricting tool access based on role-based permissions.</li><li>Our infrastructure undergoes periodic security reviews.</li></ul>
+<h2>7. International Data Transfers</h2>
+<p>User data may be transferred to and processed in the following jurisdictions:</p>
+<ul><li>United States / European Union — Google API servers (data origin)</li><li>United States / European Union — LLM provider servers (real-time processing)</li><li>Russian Federation — Our platform servers (session management, token storage, audit logs)</li></ul>
+<p>We implement appropriate safeguards for international transfers in compliance with applicable data protection laws, including Russian Federal Law No. 152-FZ &quot;On Personal Data&quot; and GDPR where applicable.</p>
+<h2>8. User Rights</h2>
+<p>Users may at any time:</p>
+<ul><li>Revoke access via Google Account → Security → Third-party access &amp; apps</li><li>Request deletion of all associated data by contacting balian.armine@gmail.com</li><li>Request a copy of their data</li><li>Object to processing or request restriction of processing</li></ul>
+<p>We respond to all data subject requests within 30 days.</p>
+<h2>9. Children's Privacy</h2>
+<p>Our service is intended for adults (18+). We do not knowingly collect personal data from children under 16. If we become aware that we have collected such data, we will delete it promptly.</p>
+<h2>10. Changes to This Policy</h2>
+<p>We may update this privacy policy from time to time. Material changes will be communicated via email at least 30 days before taking effect. The &quot;Last updated&quot; date at the top of this page reflects the most recent revision.</p>
+<h2>11. Contact</h2>
+<p>For any questions or concerns about this Privacy Policy or our data practices:</p>
+<ul><li>Email: balian.armine@gmail.com</li></ul></main><footer><a href="terms-of-service.html">Terms of Service</a><a href="privacy-policy.html">Privacy Policy</a></footer></body></html>
