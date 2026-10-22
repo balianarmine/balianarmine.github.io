@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { Script } from 'node:vm';
 
 // Встраиваем ресурсы, чтобы сборка работала через file:// без загрузки модулей.
-const dist = resolve(dirname(fileURLToPath(import.meta.url)), '../dist');
+const dist = resolve(dirname(fileURLToPath(import.meta.url)), '../docs');
 const asset = path => readFileSync(resolve(dist, path.replace(/^\.?\//, '')), 'utf8');
 let html = readFileSync(resolve(dist, 'index.html'), 'utf8');
 let scriptCount = 0;
