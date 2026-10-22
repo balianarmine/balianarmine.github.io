@@ -1,0 +1,70 @@
+﻿linka — Application Privacy Policy
+Last updated: October 21, 2026
+App name: linka
+Homepage: https://cowork.gigab2b.ru
+Contact: privacy@gigab2b.ru
+---
+1. What We Collect
+linka is an AI-powered productivity platform that helps users automate tasks across their Google Workspace using natural language commands. Through the Google OAuth 2.0 API, we access the following data on behalf of our users:
+Service	Data Accessed	Purpose
+Gmail API	Email messages (read, send, label, search)	Reading, summarizing, drafting, and sending emails
+Google Drive API	Files and folders (search, read metadata)	Searching and organizing user files
+Google Calendar API	Calendar events (read, create, update)	Viewing and managing schedule
+We do NOT collect: contacts, photos, location data, health data, or any data outside the scopes listed above.
+2. How We Use the Data
+User data is used exclusively to provide the AI assistant functionality described on our homepage:
+•	Reading and summarizing email threads
+•	Drafting and sending emails on the user's behalf (with user approval)
+•	Searching and organizing files in Google Drive
+•	Viewing, creating, and updating calendar events
+Data is processed in real-time to respond to the user's query. We do not store user content beyond the active session.
+3. Limited Use
+In accordance with the Google API Services User Data Policy, we commit to the following:
+•	We will NOT sell or transfer user data to third parties.
+•	We will NOT use user data for advertising purposes.
+•	We will NOT use user data to train machine learning models beyond the specific user's personalized experience.
+•	We will NOT use user data for credit decisions.
+•	We will NOT aggregate user data across users for any purpose.
+•	We will NOT use user data in a manner inconsistent with our published privacy policy.
+Access to user data is limited to what is necessary to provide the features visible in our application. We comply with the minimum scope requirement: we request only the smallest set of Google API scopes necessary for the described functionality.
+4. Data Storage and Retention
+Data Type	Storage	Retention
+OAuth tokens (access, refresh)	Encrypted vault (AES-256-GCM)	Until revoked by user
+User content (email bodies, file contents)	In-memory during active session only	NOT persisted to disk
+Session logs (tool call metadata, timestamps)	Encrypted storage	90 days
+Audit trail (who called what, when)	Append-only log	1 year
+Upon user request or account deletion, all associated data is permanently deleted within 30 days.
+5. Data Sharing
+We do not share user data with third parties except:
+•	Google APIs — to retrieve and send the data the user has explicitly authorized.
+•	LLM Provider (OpenAI / Anthropic) — solely to process the user's query in real-time. The provider's data-use terms prohibit training on API traffic. No user data is retained by the LLM provider beyond the active inference call.
+We do NOT share data with advertisers, data brokers, analytics platforms, or any other third party.
+6. Security Measures
+•	All data in transit is encrypted via TLS 1.3.
+•	Tokens at rest are encrypted with AES-256-GCM.
+•	Access to user data is restricted to the authenticated user only (per-user permissions enforced on every API call).
+•	We maintain an append-only audit log of all API calls for security monitoring.
+•	We protect against prompt injection by filtering and sanitizing untrusted input before it reaches the model, and by restricting tool access based on role-based permissions.
+•	Our infrastructure undergoes periodic security reviews.
+7. International Data Transfers
+User data may be transferred to and processed in the following jurisdictions:
+•	United States / European Union — Google API servers (data origin)
+•	United States / European Union — LLM provider servers (real-time processing)
+•	Russian Federation — Our platform servers (session management, token storage, audit logs)
+We implement appropriate safeguards for international transfers in compliance with applicable data protection laws, including Russian Federal Law No. 152-FZ "On Personal Data" and GDPR where applicable.
+8. User Rights
+Users may at any time:
+•	Revoke access via Google Account → Security → Third-party access & apps
+•	Request deletion of all associated data by contacting privacy@gigab2b.ru
+•	Request a copy of their data
+•	Object to processing or request restriction of processing
+We respond to all data subject requests within 30 days.
+9. Children's Privacy
+Our service is intended for adults (18+). We do not knowingly collect personal data from children under 16. If we become aware that we have collected such data, we will delete it promptly.
+10. Changes to This Policy
+We may update this privacy policy from time to time. Material changes will be communicated via email at least 30 days before taking effect. The "Last updated" date at the top of this page reflects the most recent revision.
+11. Contact
+For any questions or concerns about this Privacy Policy or our data practices:
+•	Email: privacy@gigab2b.ru
+•	Address: [Company legal address]
+•	Data Protection Officer: [Name], dpo@gigab2b.ru

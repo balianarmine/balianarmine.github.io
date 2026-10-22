@@ -1,0 +1,60 @@
+﻿linka — Terms of Service
+Last updated: October 21, 2026
+These Terms of Service ("Terms") govern your access to and use of the linka platform (the "Service"), operated by [Company Legal Name] ("we", "us", "our"). By accessing or using the Service, you agree to be bound by these Terms. If you do not agree, do not use the Service.
+---
+1. The Service
+linka is an AI-powered productivity platform that helps users automate tasks across their Google Workspace (Gmail, Google Drive, Google Calendar) using natural language commands. The Service acts as a governed intermediary between the user's AI assistant and the user's connected applications.
+2. Eligibility
+•	You must be at least 18 years old or have parental/guardian consent to use the Service.
+•	You must have a valid Google account to connect Google Workspace services.
+•	Organizations may use the Service on behalf of their employees subject to internal authorization.
+3. User Responsibilities
+You are responsible for:
+•	Maintaining the confidentiality of your Google account credentials.
+•	The accuracy and legality of information you provide through the Service.
+•	Ensuring you have the right to grant the Service access to your Google data.
+•	Complying with all applicable laws in your jurisdiction when using the Service.
+4. Data and Privacy
+Our handling of your personal data is governed by our Privacy Policy, available at https://cowork.gigab2b.ru/privacy. By using the Service, you consent to the processing described therein, including:
+•	Real-time processing of your Google data to respond to your queries.
+•	Storage of OAuth tokens in an encrypted vault.
+•	Retention of session and audit logs as described in the Privacy Policy.
+We comply with the Google API Services User Data Policy, including the Limited Use requirement. We do not sell your data, use it for advertising, or train machine learning models on your data.
+5. Acceptable Use
+You agree NOT to:
+•	Use the Service to send spam, phishing, or unsolicited communications.
+•	Attempt to access data belonging to other users.
+•	Reverse engineer, decompile, or extract source code from the Service.
+•	Use the Service for any illegal purpose or in violation of Google's Terms of Service.
+•	Circumvent rate limits, access controls, or security measures.
+•	Use the Service to develop a competing product.
+6. Intellectual Property
+•	The Service, including its software, interfaces, and documentation, is owned by us and protected by applicable intellectual property laws.
+•	Your data (emails, files, calendar events) remains entirely yours. We claim no ownership over your content.
+•	We grant you a limited, non-exclusive, non-transferable license to use the Service during your subscription period.
+7. Third-Party Services
+The Service integrates with third-party platforms, including but not limited to Google Workspace and LLM providers. We are not responsible for:
+•	Changes to third-party APIs, terms, or availability.
+•	Actions taken by third-party providers within their own policies.
+•	Downtime or degradation of third-party services.
+8. Disclaimers
+THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, OR SECURE. AI-generated outputs may contain inaccuracies; you are responsible for verifying critical information before acting on it.
+9. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, OUR TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THESE TERMS SHALL NOT EXCEED THE FEES PAID BY YOU IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+IN NO EVENT SHALL WE BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, OR BUSINESS OPPORTUNITY.
+10. Indemnification
+You agree to indemnify and hold us harmless from any claims, damages, liabilities, and expenses arising from your use of the Service in violation of these Terms or applicable law.
+11. Termination
+•	Either party may terminate these Terms at any time with written notice.
+•	We may suspend or terminate access if you violate these Terms or if required by law.
+•	Upon termination, we will delete your associated data within 30 days, as described in the Privacy Policy.
+•	Sections 4, 6, 8, 9, 10, and 12 survive termination.
+12. Governing Law and Disputes
+These Terms are governed by the laws of [Jurisdiction]. Any disputes shall be resolved through good-faith negotiation, followed by binding arbitration in [City] under the rules of [Arbitration Body], unless otherwise required by law.
+13. Changes to These Terms
+We may update these Terms from time to time. Material changes will be communicated via email at least 30 days before taking effect. Continued use of the Service after changes take effect constitutes acceptance of the revised Terms.
+14. Contact
+For questions about these Terms:
+•	Email: legal@gigab2b.ru
+•	Address: [Company legal address]
