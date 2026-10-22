@@ -7,11 +7,11 @@ const integrations = [
   { name: 'Notion', letter: 'N', category: 'Knowledge', color: 'ink', description: 'Documents, knowledge bases, and ideas, right in your workflow.' },
   { name: 'Slack', letter: 'S', category: 'Communication', color: 'purple', description: 'Conversations and notifications where your team connects.' },
   { name: 'Google Drive', letter: 'G', category: 'Files', color: 'green', description: 'Files and shared folders for work that needs context.' },
-  { name: 'GitHub', letter: 'G', category: 'Development', color: 'ink', description: 'Repositories, issues, and changes in one workflow.' },
-  { name: 'Linear', letter: 'L', category: 'Development', color: 'blue', description: 'From idea to release. Issues and projects within reach.' },
+  { name: 'GMail', letter: 'G', category: 'Communication', color: 'ink', description: 'Search for, read, and send emails and attachments to your customers.' },
+  { name: 'Google Calendar', letter: 'G', category: 'Management', color: 'blue', description: 'Manage meetings and events within the company.' },
   { name: 'Telegram', letter: 'T', category: 'Communication', color: 'sky', description: 'Messages and updates for your team and customers.' },
 ];
-const categories = ['All integrations', 'Communication', 'Knowledge', 'Files', 'Development'];
+const categories = ['All integrations', 'Communication', 'Knowledge', 'Files', 'Management'];
 const faqs = [
   ['How do connections work?', 'Choose a service, grant the required permissions, and set up your workflow. This is a catalog concept; live connections require integration with each service API.'],
   ['Can I add my own service?', 'Yes, the catalog can accommodate a custom integration. Building it requires access to the service API and a description of the data you want to exchange.'],
@@ -31,7 +31,7 @@ function App() {
         <h1>Your tools.<br/>Now <span className="serif">together.</span></h1>
         <p className="hero-copy">Bring your favorite services into one workspace.<br className="desktop"/> Keep ideas moving and your data connected.</p>
         <a className="button" href="#integrations">Explore integrations <ArrowUpRight size={18}/></a>
-        <div className="connection" aria-label="Services connected in one workspace"><div className="service-mini notion">N<span>Notion</span></div><div className="service-mini slack">S<span>Slack</span></div><div className="connection-line"/><div className="connection-hub">linka<span>all connected</span></div><div className="connection-line"/><div className="service-mini drive">G<span>Google Drive</span></div><div className="service-mini github">G<span>GitHub</span></div></div>
+        <div className="connection" aria-label="Services connected in one workspace"><div className="service-mini notion">N<span>Notion</span></div><div className="service-mini slack">S<span>Slack</span></div><div className="connection-line"/><div className="connection-hub">linka<span>all connected</span></div><div className="connection-line"/><div className="service-mini drive">G<span>Google Drive</span></div><div className="service-mini github">T<span>Telegram</span></div></div>
         <div className="hero-bottom"><span>Familiar tools. New possibilities.</span><span>One place for your connections <span aria-hidden="true">↘</span></span></div>
       </section>
       <section className="catalog wrap" id="integrations">
